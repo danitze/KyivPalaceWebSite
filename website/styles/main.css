@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: normal;
+    font-family: Arial, sans-serif;
+    margin-top: 30px;
+}
+
+header {
+    background-color: #003580;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.company_info {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-bottom: 65px;
+}
+
+.company_title {
+    display: flex;
+    gap: 10px;
+    padding-top: 25px;
+    text-transform: uppercase;
+}
+
+.company_title img {
+    width: 100px;
+}
+
+.company_title p {
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.contacts {
+    margin-left: auto;
+    text-align: right;
+}
+
+.contacts p {
+    font-size: 30px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.contacts a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    border-bottom: thin solid #fff;
+}
+
+.contacts a:hover {
+    color: #f9a81b;
+    border-bottom: thin solid #f9a81b;
+}
+
+.menu {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #306CC0;
+}
+
+.menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.menu li {
+    list-style-type: none;
+    font-size: 25px;
+}
+
+.separator {
+    display: block;
+    width: 2px;
+    height: 31px;
+    content: '';
+    background: #ffffff;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.menu a:hover {
+    color: #f9a81b;
+}
+
+.menu a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: #f9a81b;
+    transition: width .3s;
+}
+
+.menu a:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
