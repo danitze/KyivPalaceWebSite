@@ -74,13 +74,13 @@ header {
     border-bottom: thin solid #f9a81b;
 }
 
-.menu {
+nav {
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #306CC0;
 }
 
-.menu ul {
+nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -88,7 +88,7 @@ header {
     padding-right: 35px;
 }
 
-.menu li {
+nav li {
     list-style-type: none;
     font-size: 25px;
 }
@@ -101,7 +101,7 @@ header {
     background: #ffffff;
 }
 
-.menu a {
+nav a {
     text-decoration: none;
     color: #fff;
     font-family: Arial, sans-serif;
@@ -109,11 +109,11 @@ header {
     font-weight: normal;
 }
 
-.menu a:hover {
+nav a:hover {
     color: #f9a81b;
 }
 
-.menu a::after {
+nav a::after {
     content: '';
     display: block;
     width: 0;
@@ -122,7 +122,12 @@ header {
     transition: width .3s;
 }
 
-.menu a:hover::after {
+nav a:hover::after {
     width: 100%;
     transition: width .3s;
+}
+
+.slider {
+    height: 400px;
+    /*background: url("../img/rooms.jpg") no-repeat center / cover;*/
 }
