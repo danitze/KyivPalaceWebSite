@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bfc7af6b-3253-40e1-84c8-d74605225cf6" name="Changes" comment="Implemented section path and side navbar with anim">
-      <change afterPath="$PROJECT_DIR$/website/img/catalog/room1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website/img/catalog/room10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website/img/catalog/room11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website/img/catalog/room2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website/img/catalog/room3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website/img/catalog/room4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website/img/catalog/room5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website/img/catalog/room6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website/img/catalog/room7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website/img/catalog/room8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website/img/catalog/room9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website/img/logo_small.png" afterDir="false" />
+    <list default="true" id="bfc7af6b-3253-40e1-84c8-d74605225cf6" name="Changes" comment="Implemented main section with hotel rooms (no paging and standard description, I'll think about that)">
+      <change afterPath="$PROJECT_DIR$/website/scripts/pager.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/styles/main.css" afterDir="false" />
@@ -34,6 +23,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -89,7 +86,7 @@
       <workItem from="1648563301291" duration="32000" />
       <workItem from="1648565409058" duration="1117000" />
       <workItem from="1648567562030" duration="1588000" />
-      <workItem from="1648569158747" duration="4177000" />
+      <workItem from="1648569158747" duration="8108000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented header and menu">
       <created>1648387663755</created>
@@ -126,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648560228351</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Implemented main section with hotel rooms (no paging and standard description, I'll think about that)">
+      <created>1648573718744</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1648573718744</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +153,7 @@
     <MESSAGE value="Slider implemented" />
     <MESSAGE value="JQuery files" />
     <MESSAGE value="Implemented section path and side navbar with anim" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented section path and side navbar with anim" />
+    <MESSAGE value="Implemented main section with hotel rooms (no paging and standard description, I'll think about that)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented main section with hotel rooms (no paging and standard description, I'll think about that)" />
   </component>
 </project>

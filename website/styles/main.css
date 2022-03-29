@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 h2 {
     font-size: 30px;
     color: #fff;
@@ -17,6 +21,10 @@ header {
 
 a {
     text-decoration: none;
+}
+
+li {
+    list-style-type: none;
 }
 
 .container {
@@ -92,7 +100,6 @@ nav ul {
 }
 
 nav li {
-    list-style-type: none;
     font-size: 25px;
 }
 
@@ -199,7 +206,6 @@ nav a:hover {
 }
 
 .slider_section .slick-dots li {
-    list-style-type: none;
     margin: 0 10px;
 }
 
@@ -264,12 +270,8 @@ nav a:hover {
     flex: 1;
 }
 
-.catalog_items {
+.catalog {
     flex: 4;
-}
-
-.sections_list li {
-    list-style-type: none;
 }
 
 .sections_list > li {
@@ -376,4 +378,27 @@ nav a:hover {
 .item_footer img {
     width: 30px;
     height: 30px;
+}
+
+.paging_menu {
+    margin-top: 25px;
+}
+
+#paging_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#paging_list li a {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #002353;
+    cursor: pointer;
+}
+
+#paging_list li a:hover {
+    color: #f9a81b;
 }
