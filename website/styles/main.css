@@ -327,6 +327,12 @@ nav a {
     flex-basis: 32%;
     background-color: #f9a81b;
     border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.catalog_item_background:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 7px rgba(39, 39, 39, 0.64);
 }
 
 .catalog_item {
