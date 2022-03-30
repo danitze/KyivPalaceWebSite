@@ -7,12 +7,17 @@ html {
     scroll-behavior: smooth;
 }
 
-h2 {
+h1 {
     font-size: 30px;
     color: #fff;
     font-weight: normal;
     font-family: Arial, sans-serif;
     margin-top: 30px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: normal;
 }
 
 header {
@@ -352,6 +357,11 @@ nav a {
     color: #fff;
     font-size: 14px;
     margin-bottom: 5px;
+}
+
+.pricing {
+    font-size: 20px;
+    color: #f9a81b;
 }
 
 .item_footer {
