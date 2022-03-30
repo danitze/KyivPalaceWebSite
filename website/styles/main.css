@@ -80,9 +80,13 @@ li {
     border-bottom: thin solid #fff;
 }
 
-.contacts a:hover {
-    color: #f9a81b;
-    border-bottom: thin solid #f9a81b;
+.hover:hover {
+    color: #f9a81b!important;
+}
+
+.bordered_hover:hover {
+    border-bottom: thin solid #f9a81b!important;
+    color: #f9a81b!important;
 }
 
 nav {
@@ -118,7 +122,7 @@ nav a {
     font-weight: normal;
 }
 
-nav a:hover {
+.anim_hover:hover {
     color: #f9a81b;
 }
 
@@ -250,10 +254,6 @@ nav a:hover {
     font-weight: normal;
 }
 
-.section_path a:hover {
-    color: #f9a81b;
-}
-
 .selected {
     color: #f9a81b !important;
     border-bottom: thin solid #f9a81b !important;
@@ -304,10 +304,6 @@ nav a:hover {
     font-size: 15px;
     font-family: Arial, sans-serif;
     color: #002353;
-}
-
-.section_name:hover, .subsection_name:hover {
-    color: #f9a81b;
 }
 
 .catalog_items {
@@ -371,10 +367,6 @@ nav a:hover {
     color: #fff;
 }
 
-.item_footer a:hover {
-    color: #f9a81b;
-}
-
 .item_footer img {
     width: 30px;
     height: 30px;
@@ -382,6 +374,16 @@ nav a:hover {
 
 .paging_menu {
     margin-top: 25px;
+}
+
+.paging_menu:after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 5px;
+    background-color: #002353;
+    margin: 60px auto;
+    border-radius: 5px;
 }
 
 #paging_list {
@@ -399,6 +401,53 @@ nav a:hover {
     cursor: pointer;
 }
 
-#paging_list li a:hover {
-    color: #f9a81b;
+.company_desc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.company_desc text {
+    flex-basis: 47%;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #002353;
+}
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #002353;
+}
+
+footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .container > * {
+    flex-basis: 25%;
+}
+
+footer .container * {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #fff;
+}
+
+.footer_company_info p, .footer_nav li, .about_developer .developer_link {
+    margin-bottom: 10px;
+}
+
+.footer_company_info p:last-child, .footer_nav li:last-child {
+    margin-bottom: 0;
+}
+
+footer p {
+    line-height: 180%;
+}
+
+footer a {
+    border-bottom: thin solid #fff;
 }

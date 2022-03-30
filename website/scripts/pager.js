@@ -14,6 +14,7 @@ function initPages() {
         let a = document.createElement("a");
         a.href = "#main_content";
         a.appendChild(document.createTextNode(i + 1));
+        a.classList.add("hover");
         a.id = i;
         pages.push(a);
         let li = document.createElement("li");
