@@ -327,10 +327,13 @@ nav a {
     flex-basis: 32%;
     background-color: #f9a81b;
     border-radius: 10px;
+}
+
+.scale_hover {
     transition: all 0.3s ease-in-out;
 }
 
-.catalog_item_background:hover {
+.scale_hover:hover {
     transform: scale(1.03);
     box-shadow: 0 0 7px rgba(39, 39, 39, 0.64);
 }

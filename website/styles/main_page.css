@@ -94,3 +94,44 @@
     font-family: Arial, sans-serif;
     color: #fff;
 }
+
+.to_rooms_section {
+    background-color: #306CC0;
+}
+
+.to_rooms_section .container {
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.rooms_images {
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.rooms_images img {
+    flex-basis: 30%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.to_rooms_section a {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    color: #002353;
+    padding: 3px;
+    border: 3px solid #002353;
+    transition: all 0.2s linear;
+    transition-property: color, border-bottom-color, border-left-color, border-top-color, border-right-color;
+}
+
+.to_rooms_section a:hover {
+    color: #f9a81b;
+    border: 3px solid #f9a81b;
+}
