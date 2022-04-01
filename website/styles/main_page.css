@@ -1,4 +1,9 @@
-.content_section .container {
+.hotel_title_section {
+    background-color: #306CC0;
+}
+
+.hotel_title_section .container {
+    background-color: #fff;
     padding-bottom: 100px;
 }
 

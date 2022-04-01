@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bfc7af6b-3253-40e1-84c8-d74605225cf6" name="Changes" comment="Implemented basic version of main page (not complete)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="bfc7af6b-3253-40e1-84c8-d74605225cf6" name="Changes" comment="Finished main page">
+      <change afterPath="$PROJECT_DIR$/website/styles/index_page.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/pages/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/pages/main_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/pages/main_page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/styles/main_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/styles/main_page.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +96,7 @@
       <workItem from="1648635847657" duration="2395000" />
       <workItem from="1648667980967" duration="8475000" />
       <workItem from="1648677463043" duration="170000" />
-      <workItem from="1648820347627" duration="1319000" />
+      <workItem from="1648820347627" duration="1746000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented header and menu">
       <created>1648387663755</created>
@@ -184,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648677603310</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Finished main page">
+      <created>1648821958450</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1648821958450</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +219,7 @@
     <MESSAGE value="Fixed price" />
     <MESSAGE value="Added description and scale" />
     <MESSAGE value="Implemented basic version of main page (not complete)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented basic version of main page (not complete)" />
+    <MESSAGE value="Finished main page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished main page" />
   </component>
 </project>
