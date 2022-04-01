@@ -85,8 +85,18 @@ li {
     border-bottom: thin solid #fff;
 }
 
+.hover {
+    transition: all 0.2s linear;
+    transition-property: color;
+}
+
 .hover:hover {
     color: #f9a81b!important;
+}
+
+.bordered_hover {
+    transition: all 0.2s linear;
+    transition-property: color, border-bottom-color;
 }
 
 .bordered_hover:hover {
@@ -125,6 +135,11 @@ nav a {
     font-family: Arial, sans-serif;
     font-size: 20px;
     font-weight: normal;
+}
+
+.anim_hover {
+    transition: all 0.2s linear;
+    transition-property: color;
 }
 
 .anim_hover:hover {
