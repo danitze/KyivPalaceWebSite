@@ -23,7 +23,7 @@
                 <div class="contacts">
                     <p>+380 (99) 999 99 99</p>
                     <p>+380 (67) 777 77 77</p>
-                    <a href="#" class="bordered_hover">Обратная связь</a>
+                    <a href="#" class="bordered_hover feedback_link">Обратная связь</a>
                 </div>
             </div>
         </div>
@@ -102,7 +102,7 @@
                 <div class="feedback">
                     <h3>
                         Вы также можете воспользоваться нашей
-                        <a href="#" class="bordered_hover">формой обратной связи</a>
+                        <a href="#" class="bordered_hover feedback_link">формой обратной связи</a>
                     </h3>
                 </div>
             </div>
@@ -154,6 +154,42 @@
             </div>
         </div>
     </footer>
+
+    <div id="fog">
+        <div id="feedback_form_background">
+            <div id="feedback_form_div">
+                <div id="close_div">
+                    <div id="close_button"></div>
+                </div>
+                <h5>Обратная связь</h5>
+                <form id="feedback_form">
+                    <div id="inputs_div">
+                        <div>
+                            <label for="name_input">ФИО<sup>*</sup></label>
+                            <input type="text" id="name_input" required placeholder="Поле не должно быть пустым">
+                        </div>
+                        <div>
+                            <label for="phone_input">Номер телефона<sup>*</sup></label>
+                            <input type="tel" id="phone_input" required placeholder="Поле не должно быть пустым">
+                        </div>
+
+                        <div>
+                            <label for="email_input">Email<sup>*</sup></label>
+                            <input type="email" id="email_input" required placeholder="Поле не должно быть пустым">
+                        </div>
+
+                        <div>
+                            <label for="msg_input">Сообщение</label>
+                            <textarea id="msg_input"></textarea>
+                        </div>
+                    </div>
+
+                    <button id="send_feedback_button">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="../scripts/feedback_form.js"></script>
 
 </body>
 </html>

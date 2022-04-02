@@ -13,6 +13,7 @@
 
 .side_navbar {
     display: flex;
+    flex-direction: column;
     flex: 1;
 }
 
@@ -50,6 +51,33 @@
     font-size: 15px;
     font-family: Arial, sans-serif;
     color: #002353;
+}
+
+.pricing_link {
+    margin: 150px auto 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.pricing_link figcaption {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #002353;
+}
+
+.pricing_link:hover > figcaption {
+    color: #f9a81b;
+}
+
+.pricing_link:hover > .excel_logo {
+    background: url("../img/excel-logo-selected.png") no-repeat center / cover;
+}
+
+.excel_logo {
+    width: 100px;
+    height: 100px;
+    background: url("../img/excel-logo.png") no-repeat center / cover;
+    margin: 0 auto;
 }
 
 .catalog_items {
