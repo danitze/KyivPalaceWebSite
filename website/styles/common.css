@@ -20,6 +20,16 @@ h2 {
     font-weight: normal;
 }
 
+h5 {
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
 header {
     background-color: #003580;
 }
@@ -165,7 +175,7 @@ nav a {
     left: 50%;
     transform: translateX(-50%);
     height: 400px;
-    z-index: 1000000;
+    z-index: 5000;
 }
 
 .slider {
@@ -377,4 +387,115 @@ footer p {
 
 footer a {
     border-bottom: thin solid #fff;
+}
+
+#fog {
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 300ms;
+    transition-property: opacity;
+}
+
+#feedback_form_background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f9a81b;
+    border-radius: 10px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#feedback_form_div {
+    width: 100%;
+    background-color: #002353;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#feedback_form {
+    text-align: center;
+}
+
+#close_div {
+    padding-top: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+}
+
+#close_button {
+    margin-left: auto;
+    width: 25px;
+    height: 25px;
+    background: url("../img/close-form.png") no-repeat center / cover;
+}
+
+#close_button:hover {
+    background: url("../img/close-form-selected.png") no-repeat center / cover;
+}
+
+#inputs_div {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#inputs_div > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+#inputs_div label, #send_feedback_button {
+    margin-bottom: 10px;
+}
+
+#inputs_div input {
+    height: 24px;
+    border: none;
+    border-radius: 2px;
+    padding: 2px;
+}
+
+#inputs_div input:invalid {
+    box-shadow: inset 0 0 7px rgba(159, 9, 16, 0.7);
+}
+
+#inputs_div textarea {
+    height: 150px;
+    border-radius: 2px;
+    resize: none;
+    padding: 2px;
+}
+
+#send_feedback_button {
+    width: 30%;
+    height: 35px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 2px;
+    background-color: #002353;
+    border: thin solid #fff;
+    transition: all 0.2s linear;
+    transition-property: color, border-bottom-color, border-left-color, border-top-color, border-right-color;
+}
+
+#send_feedback_button:hover {
+    color: #f9a81b;
+    border: thin solid #f9a81b;
 }
