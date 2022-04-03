@@ -9,6 +9,14 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: #306CC0;
+}
+
 h1 {
     font-size: 30px;
     color: #fff;
@@ -288,6 +296,9 @@ nav a {
 }
 
 footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #002353;
