@@ -25,6 +25,7 @@
     text-transform: uppercase;
     font-weight: normal;
     margin: 0 auto;
+    line-height: normal;
 }
 
 .main_company_title h2 {
@@ -33,6 +34,7 @@
     text-transform: uppercase;
     font-weight: normal;
     margin: 0 auto;
+    line-height: normal;
 }
 
 .main_company_title:after {
@@ -51,6 +53,7 @@
 
 .main_company_desc p {
     font-size: 20px;
+    line-height: normal;
     color: #002353;
 }
 
@@ -71,6 +74,7 @@
     font-size: 60px;
     color: #fff;
     font-weight: normal;
+    line-height: normal;
 }
 
 .services_section ul {
