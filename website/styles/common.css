@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "PT Sans", sans-serif;
+    font-size: 14px;
 }
 
 html {
@@ -11,7 +13,6 @@ h1 {
     font-size: 30px;
     color: #fff;
     font-weight: normal;
-    font-family: Arial, sans-serif;
     margin-top: 30px;
 }
 
@@ -23,7 +24,6 @@ h2 {
 h5 {
     text-align: center;
     font-size: 25px;
-    font-family: Arial, sans-serif;
     text-transform: uppercase;
     font-weight: normal;
     color: #fff;
@@ -69,7 +69,6 @@ li {
 
 .company_title p {
     color: #fff;
-    font-family: Arial, sans-serif;
     font-weight: normal;
     font-size: 10px;
     margin-top: 5px;
@@ -83,14 +82,13 @@ li {
 .contacts p {
     font-size: 30px;
     color: #fff;
-    font-family: Arial, sans-serif;
+    font-family: "Noto Sans thin", sans-serif;
     font-weight: normal;
     margin-bottom: 10px;
 }
 
 .contacts a {
     font-size: 20px;
-    font-family: Arial, sans-serif;
     color: #fff;
     border-bottom: thin solid #fff;
 }
@@ -142,7 +140,6 @@ nav li {
 
 nav a {
     color: #fff;
-    font-family: Arial, sans-serif;
     font-size: 20px;
     font-weight: normal;
 }
@@ -198,12 +195,12 @@ nav a {
 }
 
 .slider_section .slick-arrow.slick-prev {
-    left: 0;
+    left: 10px;
     background: url("../img/arrow-left.png") 0 0 / 100% no-repeat;
 }
 
 .slider_section .slick-arrow.slick-next {
-    right: 0;
+    right: 10px;
     background: url("../img/arrow-right.png") 0 0 / 100% no-repeat;
 }
 
@@ -271,7 +268,6 @@ nav a {
 .section_path a, .section_path text {
     font-size: 16px;
     color: #002353;
-    font-family: Arial, sans-serif;
     font-weight: normal;
 }
 
@@ -291,66 +287,6 @@ nav a {
     box-shadow: 0 0 7px rgba(39, 39, 39, 0.64);
 }
 
-.item_footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 5px;
-}
-
-.item_footer a {
-    font-family: Arial, sans-serif;
-    font-size: 12px;
-    color: #fff;
-}
-
-.item_footer img {
-    width: 30px;
-    height: 30px;
-}
-
-.paging_menu {
-    margin-top: 25px;
-}
-
-.paging_menu:after {
-    display: block;
-    content: "";
-    width: 100%;
-    height: 5px;
-    background-color: #002353;
-    margin: 60px auto;
-    border-radius: 5px;
-}
-
-#paging_list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    margin: 0 auto;
-}
-
-#paging_list li a {
-    font-family: Arial, sans-serif;
-    font-size: 15px;
-    color: #002353;
-    cursor: pointer;
-}
-
-.company_desc {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.company_desc text {
-    flex-basis: 47%;
-    font-family: Arial, sans-serif;
-    font-size: 18px;
-    color: #002353;
-}
-
 footer {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -368,7 +304,6 @@ footer .container > * {
 }
 
 footer .container * {
-    font-family: Arial, sans-serif;
     font-size: 14px;
     color: #fff;
 }
@@ -406,7 +341,7 @@ footer a {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 25%;
+    width: 500px;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #f9a81b;
@@ -456,7 +391,6 @@ footer a {
     justify-content: center;
     text-align: center;
     margin-bottom: 25px;
-    font-family: Arial, sans-serif;
     color: #fff;
 }
 
@@ -485,7 +419,6 @@ footer a {
 #send_feedback_button {
     width: 30%;
     height: 35px;
-    font-family: Arial, sans-serif;
     font-size: 15px;
     color: #fff;
     border-radius: 2px;
@@ -498,4 +431,14 @@ footer a {
 #send_feedback_button:hover {
     color: #f9a81b;
     border: thin solid #f9a81b;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    src: url("../fonts/PTSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Noto Sans thin";
+    src: url("../fonts/NotoSansJP-Thin.otf");
 }

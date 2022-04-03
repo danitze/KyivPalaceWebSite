@@ -1,0 +1,65 @@
+@media only screen and (max-width: 1024px) {
+    .container {
+        width: 800px;
+    }
+
+    #feedback_form_background {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 820px){
+    .container {
+        width: 540px;
+    }
+
+    nav ul {
+        gap: 10px;
+        justify-content: center;
+    }
+
+    #feedback_form_background {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 560px){
+    .container {
+        width: 385px;
+    }
+
+    .company_info {
+        justify-content: center;
+        row-gap: 20px;
+    }
+
+    .contacts {
+        margin: auto;
+    }
+
+    nav ul {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    nav a {
+        display: inline-block;
+    }
+
+    .separator {
+        display: none;
+    }
+
+    #feedback_form_background {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 405px) {
+    .container {
+        width: calc(100% - 20px);
+    }
+
+}
+

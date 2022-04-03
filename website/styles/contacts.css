@@ -7,8 +7,8 @@ h2 {
 
 h3 {
     text-align: start;
-    font-family: Arial, sans-serif;
     font-weight: normal;
+    font-size: 25px;
     color: #002353;
 }
 
@@ -17,7 +17,6 @@ h4 {
     padding-top: 20px;
     padding-bottom: 20px;
     font-weight: normal;
-    font-family: Arial, sans-serif;
     color: #fff;
 }
 
@@ -31,16 +30,21 @@ h4 {
 }
 
 .contact_info {
-    font-size: 25px;
     color: #002353;
 }
 
-.contact_info li {
-    font-size: 40px;
+.info p {
+    font-size: 20px;
+}
+
+.contact_value {
+    font-size: 30px;
+    font-family: "Noto Sans thin", sans-serif!important;
 }
 
 .contact_info a {
     color: #002353;
+    font-size: 25px;
     border-bottom: thin solid #002353;
 }
 
