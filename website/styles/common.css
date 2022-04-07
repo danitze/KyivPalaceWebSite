@@ -89,6 +89,7 @@ li {
 
 .contacts p {
     font-size: 30px;
+    line-height: normal;
     color: #fff;
     font-family: "Noto Sans thin", sans-serif;
     font-weight: normal;
@@ -137,7 +138,7 @@ nav ul {
 .separator {
     display: block;
     width: 2px;
-    height: 31px;
+    height: 26px;
     content: '';
     background: #ffffff;
 }
@@ -379,6 +380,7 @@ footer a {
     width: 25px;
     height: 25px;
     background: url("../img/close-form.png") no-repeat center / cover;
+    cursor: pointer;
 }
 
 #close_button:hover {
@@ -428,6 +430,7 @@ footer a {
     border-radius: 2px;
     background-color: #002353;
     border: thin solid #fff;
+    cursor: pointer;
     transition: all 0.2s linear;
     transition-property: color, border-bottom-color, border-left-color, border-top-color, border-right-color;
 }
