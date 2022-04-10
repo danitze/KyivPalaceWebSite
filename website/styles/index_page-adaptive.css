@@ -1,10 +1,10 @@
-@media only screen and (max-width: 820px) {
+@media (max-width: 820px) {
     .catalog_item_background {
         flex-basis: 45%;
     }
 }
 
-@media only screen and (max-width: 560px) {
+@media (max-width: 560px) {
     .catalog_item_background {
         flex-basis: 80%;
     }
