@@ -178,6 +178,7 @@
 }
 
 .company_desc text {
+    text-align: justify;
     flex-basis: 47%;
     color: #002353;
 }

@@ -52,6 +52,7 @@
 }
 
 .main_company_desc p {
+    text-align: justify;
     font-size: 20px;
     line-height: normal;
     color: #002353;
