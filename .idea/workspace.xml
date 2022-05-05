@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bfc7af6b-3253-40e1-84c8-d74605225cf6" name="Changes" comment="Translated to ukrainian (the site became more patriotic :) )">
+    <list default="true" id="bfc7af6b-3253-40e1-84c8-d74605225cf6" name="Changes" comment="Beautiful sending data message">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/pages/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/pages/contacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/pages/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/pages/main_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/pages/main_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/scripts/feedback_form.js" beforeDir="false" afterPath="$PROJECT_DIR$/website/scripts/feedback_form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/styles/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/website/styles/common.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +119,8 @@
       <workItem from="1650112304361" duration="1462000" />
       <workItem from="1650966425925" duration="105000" />
       <workItem from="1651682244297" duration="28000" />
-      <workItem from="1651739198696" duration="991000" />
+      <workItem from="1651739198696" duration="1183000" />
+      <workItem from="1651740738981" duration="50000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented header and menu">
       <created>1648387663755</created>
@@ -301,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650113765784</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Beautiful sending data message">
+      <created>1651740378414</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1651740378414</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +323,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Implemented header and menu" />
     <MESSAGE value="Added images" />
     <MESSAGE value="Slider implemented" />
     <MESSAGE value="JQuery files" />
@@ -345,6 +347,7 @@
     <MESSAGE value="Minor style changes" />
     <MESSAGE value="Created price list and fixed its download" />
     <MESSAGE value="Translated to ukrainian (the site became more patriotic :) )" />
-    <option name="LAST_COMMIT_MESSAGE" value="Translated to ukrainian (the site became more patriotic :) )" />
+    <MESSAGE value="Beautiful sending data message" />
+    <option name="LAST_COMMIT_MESSAGE" value="Beautiful sending data message" />
   </component>
 </project>
