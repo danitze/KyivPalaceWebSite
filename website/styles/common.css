@@ -440,6 +440,20 @@ footer a {
     border: thin solid #f9a81b;
 }
 
+#feedback_message {
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    line-height: normal;
+    width: 80%;
+    opacity: 0;
+    z-index: -1;
+}
+
 @font-face {
     font-family: "PT Sans";
     src: url("../fonts/PTSans-Regular.ttf");

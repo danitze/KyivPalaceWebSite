@@ -3,6 +3,7 @@ let fogDiv;
 let closeBtn;
 let sendBtn;
 let inputs;
+let msg;
 
 function onFeedbackLinkClick() {
     if(fogDiv.style.opacity == 0) {
@@ -23,12 +24,19 @@ function hideFeedback() {
     fogDiv.style.opacity = 0;
 }
 
+function showMessage() {
+    feedbackForm.style.opacity = 0;
+    msg.style.opacity = 1;
+    msg.style.zIndex = 0;
+}
+
 function init() {
     feedbackForm = document.getElementById('feedback_form');
     fogDiv = document.getElementById('fog');
     closeBtn = document.getElementById('close_button');
     sendBtn = document.getElementById('send_feedback_button');
     inputs = feedbackForm.getElementsByTagName('input');
+    msg = document.getElementById("feedback_message")
 
     let feedbackLinks = document.getElementsByClassName('feedback_link');
     for(let feedbackLink of feedbackLinks) {
@@ -37,6 +45,9 @@ function init() {
 
     fogDiv.addEventListener("transitionend", () => {
         if(fogDiv.style.opacity == 0) {
+            feedbackForm.style.opacity = 1;
+            msg.style.opacity = 0;
+            msg.style.zIndex = -1;
             fogDiv.style.zIndex = -1;
             for(let input of inputs) {
                 input.value = '';
@@ -51,8 +62,7 @@ function init() {
             for (let input of inputs) {
                 //Send data to server
             }
-            window.alert("Данные успешно отправлены! В скором времени наши менеджеры свяжутся с Вами.");
-            hideFeedback();
+            showMessage()
         }
     };
 }
